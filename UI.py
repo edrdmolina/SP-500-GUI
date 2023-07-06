@@ -1,4 +1,3 @@
-import tkinter
 import tkinter as tk
 from file_handler import SP500DirHandler
 
@@ -47,7 +46,7 @@ class FileHandlerGUI:
             reset_form()
 
         root = tk.Tk()
-        root.geometry("600x300")
+        root.geometry("800x400")
         root.title("SP-500 File Organizer")
 
         font = ('Courier New', 18)
